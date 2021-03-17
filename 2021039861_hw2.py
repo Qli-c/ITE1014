@@ -1,0 +1,16 @@
+print("단수를 입력하시오 :")
+dan = int(input())
+if dan>=1 and dan<=9:
+    print("**********%i단**********"%dan)
+    print("%i*1= %i"%(dan,dan*1))
+    print("%i*2= %i"%(dan,dan*2))
+    print("%i*3= %i"%(dan,dan*3))
+    print("%i*4= %i"%(dan,dan*4))
+    print("%i*5= %i"%(dan,dan*5))
+    print("%i*6= %i"%(dan,dan*6))
+    print("%i*7= %i"%(dan,dan*7))
+    print("%i*8= %i"%(dan,dan*8))
+    print("%i*9= %i"%(dan,dan*9))
+    print("***********************")
+else:
+    print("잘못된 입력 범위 입니다.")
